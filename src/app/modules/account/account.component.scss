@@ -1,0 +1,23 @@
+section {
+  height: 100%;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  div {
+    background-color: #d1f9ea;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+      font-weight: 500;
+      font-size: 30px;
+    }
+  }
+  button {
+    // width: 50%;
+    height: 50px;
+  }
+}

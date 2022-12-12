@@ -1,0 +1,8 @@
+<div>
+  <ul>
+    <li *ngFor="let route of routes">
+      <a *ngIf="route.value" routerLink="{{route.value}}">{{route.key}}<span>></span></a>
+      <span *ngIf="!route.value">{{route.key}}</span>
+    </li>
+  </ul>
+</div>
